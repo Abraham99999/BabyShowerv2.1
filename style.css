@@ -17,10 +17,6 @@ body{margin:0;font-family:Poppins,sans-serif;color:var(--brown);background:linea
   height:auto;
   display:block;
 }
-body.no-scroll {
-  overflow: hidden;
-  height: 100vh;
-}
 
 .hidden{
   display:none;

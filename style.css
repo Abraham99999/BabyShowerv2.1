@@ -9,7 +9,7 @@ body{margin:0;font-family:Poppins,sans-serif;color:var(--brown);background:linea
   left:50%;
   transform:translateX(-50%);
   z-index:4;
-  width:260px;
+  width:100px;
   height:auto;
   background:none;
   box-shadow:none;

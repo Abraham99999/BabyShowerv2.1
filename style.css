@@ -17,9 +17,9 @@ body{margin:0;font-family:Poppins,sans-serif;color:var(--brown);background:linea
   height:auto;
   display:block;
 }
-body.lock-scroll{
-  overflow:hidden;
-  height:100vh;
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
 }
 
 .hidden{

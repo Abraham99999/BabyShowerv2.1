@@ -4,7 +4,7 @@ const GOOGLE_SCRIPT_URL =
 document.addEventListener("DOMContentLoaded", () => {
   const cover = document.getElementById("cover");
   const invitation = document.getElementById("invitation");
-  const openButton = document.getElementById("openButton");
+  const openButton = document.getElementById("openInvite");
 
   if (openButton && cover && invitation) {
     openButton.addEventListener("click", () => {

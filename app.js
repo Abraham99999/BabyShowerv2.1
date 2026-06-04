@@ -1,21 +1,6 @@
 const GOOGLE_SCRIPT_URL =
   "https://script.google.com/macros/s/AKfycbyyLqQqsrUvwb2rvvQqF0tglnIeBdCn5vA55x8BTpVa2iYpJys2wHEomw101KJ70c3ftg/exec";
 
-const openButton = document.getElementById("openInvite");
-const cover = document.getElementById("cover");
-const invitation = document.getElementById("invitation");
-const cover = document.getElementById("cover");
-const envelope = document.querySelector(".envelope");
-
-envelope.addEventListener("click", () => {
-  cover.classList.add("open");
-
-  setTimeout(() => {
-    document.body.classList.remove("no-scroll");
-    cover.style.display = "none";
-  }, 1800);
-});
-
 openButton.addEventListener("click", () => {
   cover.style.transition = "opacity .7s ease, transform .7s ease";
   cover.style.opacity = "0";

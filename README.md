@@ -21,9 +21,7 @@ La sección de confirmación ahora tiene:
 8. Quién tiene acceso: Cualquier usuario.
 9. Copia la URL que termina en /exec.
 10. Abre js/app.js.
-11. Reemplaza:
-   PEGA_AQUI_TU_URL_DE_GOOGLE_APPS_SCRIPT
-   por tu URL real.
+11. 
 12. Sube todos los archivos a GitHub conservando carpetas.
 
 ## Importante

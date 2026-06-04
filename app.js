@@ -1,5 +1,5 @@
 const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbxoGBaeZDPZdDFAXx8Wy-gmSU9zmT-r8p3xszEDp10pQ41QZIaunCkoh754NEP0lUDzVw/exec";
+  "https://script.google.com/macros/s/AKfycbyyLqQqsrUvwb2rvvQqF0tglnIeBdCn5vA55x8BTpVa2iYpJys2wHEomw101KJ70c3ftg/exec";
 
 const openButton = document.getElementById("openInvite");
 const cover = document.getElementById("cover");

@@ -38,7 +38,7 @@ async function enviarRespuesta(estado){
    return;
  }
 
- if(GOOGLE_SCRIPT_URL.includes('PEGA_AQUI')){
+ if(GOOGLE_SCRIPT_URL.includes('https://docs.google.com/spreadsheets/d/e/2PACX-1vSMgJJEtxvK4btm285uW6S8J6uFbq2FmZV_TFbMuRpHcXamPJAkfLSxA1fGmHFswqZvKX2nO6ct6K_g/pubhtml')){
    msg.textContent='Falta configurar la URL de Google Sheets en js/app.js';
    return;
  }

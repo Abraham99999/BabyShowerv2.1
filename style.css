@@ -9,28 +9,22 @@ body{margin:0;font-family:Poppins,sans-serif;color:var(--brown);background:linea
   left:50%;
   transform:translateX(-50%);
   z-index:4;
-  background:#c98a58;
-  color:white;
-  border-radius:50%;
-  width:230px;
-  height:180px;
-  display:grid;
-  place-items:center;
-  font-size:45px;
-  box-shadow:0 10px 22px #7b462830
+  width:260px;
+  height:auto;
+  background:none;
+  box-shadow:none;
 }
-.bear span{
-  position:absolute;
-  top:-25px;
-  font-size:42px
+.bear-img{
+  width:100%;
+  height:auto;
+  display:block;
+  filter:drop-shadow(0 10px 20px rgba(0,0,0,.15));
 }
 .cover-card{position:relative;width:min(520px,100%);height:720px;background:linear-gradient(#fff8f2,#ffdce8);border-radius:32px;box-shadow:0 18px 40px #c8739140;overflow:hidden}
 .stars{position:absolute;top:18px;width:100%;text-align:center;font-size:32px;color:var(--gold)}
 .moon{position:absolute;top:70px;left:35px;font-size:120px;color:#edb449;text-shadow:0 0 25px #ffd37c}
 .envelope{position:absolute;left:5%;bottom:45px;width:90%;height:520px;border:0;background:transparent;cursor:pointer;animation:float 2.6s infinite ease-in-out}
 @keyframes float{50%{transform:translateY(-10px)}}
-.bear{position:absolute;top:35px;left:50%;transform:translateX(-50%);z-index:4;background:#c98a58;color:white;border-radius:50%;width:230px;height:180px;display:grid;place-items:center;font-size:45px;box-shadow:0 10px 22px #7b462830}
-.bear span{position:absolute;top:-25px;font-size:42px}
 .flap{position:absolute;top:170px;width:100%;height:210px;background:#fff0f5;clip-path:polygon(0 0,100% 0,50% 100%);z-index:3}
 .pocket{position:absolute;inset:180px 0 0;background:linear-gradient(145deg,#ffd0dd,#fff0f5);border-radius:0 0 26px 26px;box-shadow:0 20px 30px #cc6c9130}
 .seal{position:absolute;top:310px;left:50%;transform:translateX(-50%);z-index:5;background:var(--pink);color:white;width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:28px}

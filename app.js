@@ -6,20 +6,32 @@ document.addEventListener("DOMContentLoaded", () => {
   const invitation = document.getElementById("invitation");
   const openButton = document.getElementById("openInvite");
 
-  if (openButton && cover && invitation) {
-    openButton.addEventListener("click", () => {
-      cover.style.transition = "opacity .7s ease, transform .7s ease";
-      cover.style.opacity = "0";
-      cover.style.transform = "scale(1.03)";
+if (openButton && cover && invitation) {
+  openButton.addEventListener("click", () => {
 
-      setTimeout(() => {
-        cover.style.display = "none";
-        invitation.classList.remove("hidden");
-        document.body.classList.remove("no-scroll");
-        window.scrollTo(0, 0);
-      }, 700);
-    });
-  }
+    cover.style.transition =
+      "opacity .7s ease, transform .7s ease";
+
+    cover.style.opacity = "0";
+    cover.style.transform = "scale(1.03)";
+
+    setTimeout(() => {
+
+      cover.style.display = "none";
+
+      invitation.classList.remove("hidden");
+
+      // DESBLOQUEA SCROLL
+      document.body.classList.remove("no-scroll");
+
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+
+    }, 700);
+  });
+}
 
   const targetDate = new Date("2026-06-28T16:00:00-06:00").getTime();
 

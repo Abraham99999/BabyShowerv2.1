@@ -15,7 +15,7 @@ body{margin:0;font-family:Poppins,sans-serif;color:var(--brown);background:linea
   box-shadow:none;
 }
 .bear-img{
-  width:100%;
+  width:500%;
   height:auto;
   display:block;
   filter:drop-shadow(0 10px 20px rgba(0,0,0,.15));

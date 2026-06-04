@@ -1,6 +1,6 @@
 // 1) Primero crea tu Google Apps Script.
 // 2) Pega aquí la URL de implementación que termina en /exec.
-const GOOGLE_SCRIPT_URL = "PEGA_AQUI_TU_URL_DE_GOOGLE_APPS_SCRIPT";
+const GOOGLE_SCRIPT_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSMgJJEtxvK4btm285uW6S8J6uFbq2FmZV_TFbMuRpHcXamPJAkfLSxA1fGmHFswqZvKX2nO6ct6K_g/pubhtml";
 
 const openButton=document.getElementById('openInvite');
 const cover=document.getElementById('cover');

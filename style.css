@@ -42,4 +42,53 @@ h2{font-family:Playfair Display,serif;font-size:28px;margin:0}.divider{color:var
 .rsvp-form input,.rsvp-form select{width:100%;border:1px solid #ffbfd2;border-radius:16px;padding:14px 16px;font-family:Poppins,sans-serif;font-size:16px;background:#fff}
 .rsvp-actions{display:grid;gap:10px;margin-top:8px}
 .form-message{text-align:center;font-weight:700;color:#c84e78;min-height:24px}
-@media(max-width:800px){.invitation{grid-template-columns:1fr;padding:12px}.cover-card{height:650px}.hero{min-height:660px}.hero h1{font-size:78px}.hero-bear{font-size:110px}.countdown strong{font-size:25px}.countdown span{font-size:9px}}
+@media(max-width:800px){.invitation{grid-template-columns:1fr;padding:12px}.cover-card{height:650px}.hero{min-height:660px}.hero h1{font-size:78px}.hero-bear{font-size:110px}.countdown strong{font-size:25px}.countdown span{font-size:9px}
+                       .shooting-stars{
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  overflow:hidden;
+  z-index:0;
+}
+
+.shooting-stars span{
+  position:absolute;
+  top:-40px;
+  width:120px;
+  height:2px;
+  background:linear-gradient(90deg, white, rgba(255,255,255,0));
+  border-radius:999px;
+  filter:drop-shadow(0 0 8px white);
+  opacity:0;
+  transform:rotate(-35deg);
+  animation:shootingStar 5s linear infinite;
+}
+
+.shooting-stars span:nth-child(1){
+  left:10%;
+  animation-delay:0s;
+}
+
+.shooting-stars span:nth-child(2){
+  left:45%;
+  animation-delay:2s;
+}
+
+.shooting-stars span:nth-child(3){
+  left:75%;
+  animation-delay:3.8s;
+}
+
+@keyframes shootingStar{
+  0%{
+    transform:translate(0,0) rotate(-35deg);
+    opacity:0;
+  }
+  10%{
+    opacity:1;
+  }
+  100%{
+    transform:translate(420px,420px) rotate(-35deg);
+    opacity:0;
+  }
+}}
